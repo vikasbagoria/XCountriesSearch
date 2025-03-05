@@ -1,8 +1,19 @@
+/* .countryCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  justify-items: center;
+  justify-content: center; 
+  align-content: center; 
+} */
+
+
 .countryCard {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15px;
-    padding: 20px;
-    justify-items: center;
-  }
-  
+  display: flex;
+  justify-content: center; /* Center the grid horizontally */
+  align-items: center; /* Center the grid vertically */
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}

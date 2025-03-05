@@ -42,6 +42,7 @@ const App = () => {
         country.common && country.common.toLowerCase().includes(searchValue)
       );
       setFilteredCountries(updatedCountries);
+      console.log(updatedCountries);
     }
   }
 

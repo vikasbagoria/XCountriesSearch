@@ -8,7 +8,7 @@ const FlagGrid = ({ countries = [] }) => {
   }
 
   return (
-    <div className="countryCard">
+    <div className="countryCard1">
       {countries.map((country, index) => (
         country && <FlagCard key={index} country={country} />
       ))}
